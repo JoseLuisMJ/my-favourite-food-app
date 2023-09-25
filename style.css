@@ -15,7 +15,7 @@ h1{
 }
 
 body {
-    background-color: aqua;
+    background-color: rgb(193, 204, 239);
 }
 section {
     display:flex;

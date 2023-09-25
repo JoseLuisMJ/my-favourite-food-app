@@ -1,6 +1,17 @@
+* {
+  margin: 0;
+}
+header {
+  background-color: rgb(77, 54, 209);
+  color: white;
+  padding-top: 5px;
+ }
 h1{
-display: flex;
-text-align: center;
+  position: relative;
+  margin-top: auto;
+  margin-left: 5%;
+  display: flex;
+  text-align: center;
 }
 
 body {
@@ -32,6 +43,10 @@ section {
     border: 2px solid blue;
     width: 500px;
     border-radius: 20px;
+    box-shadow: blue 5px 5px 5px;
+    height: 500px;
+    margin-left: 35%;
+    margin-bottom: 10%;
   }
 
   .container {
@@ -46,12 +61,46 @@ section {
 
   .time {
     border: 2px solid blue;
-    width: 500px;
+    width: 250px;
+    height: 300px;
     border-radius: 20px;
+    box-shadow: blue 5px 5px 5px;
+    margin-left: 35%;
   }
     
   .preparation {
     border: 2px solid blue;
     width: 500px;
     border-radius: 20px;
+    box-shadow: blue 5px 5px 5px;
+    height: 500px;
+    margin-left: 35%;
+    margin-bottom: 10%;
+   }
+
+   .name {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 2% ;
+    margin-left: 5%;
+   }
+
+   p {
+    margin-left: 10%;
+    margin-right: 5%;
+   }
+  
+   h2 {
+       text-align: center;
+   }
+
+   h3 {
+    padding-top: 2%;
+    text-align: center;
+    color: white;
+   }
+
+   footer {
+    background-color: rgb(77, 54, 209);
    }
